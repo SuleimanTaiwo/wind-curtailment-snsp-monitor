@@ -1,0 +1,20 @@
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+*-env/
+
+# Data files (large, and can be re-downloaded)
+!data/raw/*
+!data/processed/*
+
+# Secrets such as database passwords
+.env
+
+# OS and editor clutter
+Thumbs.db
+.vscode/
