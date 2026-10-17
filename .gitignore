@@ -9,9 +9,10 @@ venv/
 *-env/
 
 # Data files (large, and can be re-downloaded)
-!data/raw/*
-!data/processed/*
-
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 # Secrets such as database passwords
 .env
 
