@@ -19,3 +19,10 @@ data/processed/*
 # OS and editor clutter
 Thumbs.db
 .vscode/
+
+# Generated outputs (recreated by running the pipeline)
+data/rejected/
+logs/
+
+# Excel temporary lock files (appear while a workbook is open)
+~$*
